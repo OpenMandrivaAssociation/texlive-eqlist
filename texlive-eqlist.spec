@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/eqlist
+# catalog-date 2008-02-29 19:54:55 +0100
+# catalog-license lppl
+# catalog-version 2.1
 Name:		texlive-eqlist
 Version:	2.1
 Release:	1
@@ -45,6 +51,7 @@ indentation corresponds to the longest item of the list.
 #- source
 %doc %{_texmfdistdir}/source/latex/eqlist/eqlist.dtx
 %doc %{_texmfdistdir}/source/latex/eqlist/eqlist.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ indentation corresponds to the longest item of the list.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
