@@ -51,3 +51,17 @@ indentation corresponds to the longest item of the list.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
++ Revision: 751537
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
++ Revision: 718356
+- texlive-eqlist
+- texlive-eqlist
+- texlive-eqlist
+- texlive-eqlist
+
