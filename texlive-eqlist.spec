@@ -1,12 +1,12 @@
-# revision 15878
+# revision 32257
 # category Package
 # catalog-ctan /macros/latex/contrib/eqlist
-# catalog-date 2008-02-29 19:54:55 +0100
+# catalog-date 2012-01-23 15:27:59 +0100
 # catalog-license lppl
 # catalog-version 2.1
 Name:		texlive-eqlist
 Version:	2.1
-Release:	2
+Release:	3
 Summary:	Description lists with equal indentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eqlist
@@ -21,8 +21,8 @@ Requires(post):	texlive-kpathsea
 
 %description
 This package provides a list environment which sets a
-description-like list but with the difference that the
-indentation corresponds to the longest item of the list.
+description-like list in which the indentation corresponds to
+the longest item of the list.
 
 %post
     %{_sbindir}/texlive.post
@@ -51,17 +51,3 @@ indentation corresponds to the longest item of the list.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
-+ Revision: 751537
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
-+ Revision: 718356
-- texlive-eqlist
-- texlive-eqlist
-- texlive-eqlist
-- texlive-eqlist
-
