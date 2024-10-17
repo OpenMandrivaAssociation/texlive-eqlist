@@ -3,7 +3,7 @@ Version:	32257
 Release:	2
 Summary:	Description lists with equal indentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eqlist
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/eqlist
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eqlist.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eqlist.doc.r%{version}.tar.xz
